@@ -7,9 +7,12 @@ https://m-brz.github.io/fake-captcha/
 
 ## Installation/Usage
 1. Copy the `images` and `src` directories to your project
-2. Put `<link href="src/fakerecaptcha.css" rel="stylesheet">` inside the `<head>` tag
-3. Put `<script src="src/fakerecaptcha.js"></script>` right before the `</body>` closing tag
-4. At the location where you'd like the fake captcha to be, put the HTML code from [fakecaptcha.html](https://github.com/m-brz/fake-captcha/blob/main/fakecaptcha.html)
+2. Put the following inside the `<head>` tag:
+```
+<link href="src/fakerecaptcha.css" rel="stylesheet">
+<script defer src="src/fakerecaptcha.js"></script>
+```
+3. At the location where you'd like the fake captcha to be, put the HTML code from [fakecaptcha.html](https://github.com/m-brz/fake-captcha/blob/main/fakecaptcha.html)
 ## Customization
 ### Verifying window
 Contents of the verifying window is to be set inside the `<main>` tag
